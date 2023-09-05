@@ -1,18 +1,18 @@
-Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo " VERIFICAR SOMA A + B QUESTÃƒO 1 "
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 valorA: real
 valorB: real
 valorC: real
 soma: real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 
 
 escreva("Digite o valor A:")
@@ -26,7 +26,7 @@ leia(valorC)
 
 limpatela
 
-// calculando os números.
+// calculando os nÃºmeros.
 
 soma <- valorA + valorB
 
@@ -34,17 +34,17 @@ escreval("Valor A:", valorA)
 escreval("Valor B:", valorB)
 escreval("Valor C:", valorC)
 
-// Exibindo dados do usuário.
+// Exibindo dados do usuÃ¡rio.
   se (soma > valorC) entao
-    escreval (" A  soma de A + B  é maior que C  ")
+    escreval (" A  soma de A + B  Ã© maior que C  ")
   fimse
 
   se  (soma = valorC ) entao
-    escreval ("A soma é  igual a C ")
+    escreval ("A soma Ã©  igual a C ")
   fimse
 
   se(soma < valorC ) entao
-    escreval (" A soma é menor que C ")
+    escreval (" A soma Ã© menor que C ")
   fimse
 
 Fimalgoritmo
