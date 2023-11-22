@@ -1,18 +1,18 @@
-Algoritmo " DADOS DO USU¡RIO QUEST√O 2 "
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo " DADOS DO USU√ÅRIO QUEST√ÉO 2 "
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 05/09/2023
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
   nome:caracter
   sexo:caracter
   estadoCivil:caracter
   tempoCasada:inteiro
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc... 
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc... 
 
 escreva("Digite o  nome:")
 leia(nome)
@@ -32,7 +32,7 @@ leia(estadoCivil)
  limpatela
  
  
- escreval("Dados do usu·rio ")
+ escreval("Dados do usu√°rio ")
  escreval("Nome: ", nome )
  escreval("Sexo: " , sexo )
  escreval("Estado civil: " , estadoCivil)
