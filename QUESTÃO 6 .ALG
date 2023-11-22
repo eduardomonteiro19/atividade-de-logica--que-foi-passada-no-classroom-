@@ -1,11 +1,11 @@
-Algoritmo "Cálculo de Média e Resultado QUESTÃO 6 "
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "CÃ¡lculo de MÃ©dia e Resultado QUESTÃƒO 6 "
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 05/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 notal, nota2, media: real
 
@@ -19,11 +19,11 @@ leia (nota2)
 
 media <- (notal + nota2) / 2
 
-escreval("Média: ", media)
+escreval("MÃ©dia: ", media)
 
-se media 6 então
+se media 6 entÃ£o
 
-escreval("Parabéns! Aluno aprovado.")
+escreval("ParabÃ©ns! Aluno aprovado.")
 
 
 senao
@@ -31,9 +31,9 @@ senao
 se media >= 4 entao
 
 
-escreval("Aluno em recuperação.")
+escreval("Aluno em recuperaÃ§Ã£o.")
 
-senão
+senÃ£o
 
 escreval("Aluno reprovado.")
 
