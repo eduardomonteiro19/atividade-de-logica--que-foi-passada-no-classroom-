@@ -1,11 +1,11 @@
-Algoritmo "Análise de Empréstimo QUESTÃO 9"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+Algoritmo "AnÃ¡lise de EmprÃ©stimo QUESTÃƒO 9"
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlos Anderson 
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
+// Autor(a)    : Nome do(a) aluno(a) Eduardo Monteiro
 // Data atual  : 05/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 
 rendaMensal, valorEmprestimo, valorPrestacaoMaximo: real
@@ -13,27 +13,27 @@ rendaMensal, valorEmprestimo, valorPrestacaoMaximo: real
 numeroPrestacoes: inteiro
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 
 escreva("Digite a renda mensal do solicitante: ")
 leia(rendaMensal)
 
-escreva ("Digite o valor total do empréstimo solicitado: ")
+escreva ("Digite o valor total do emprÃ©stimo solicitado: ")
 leia (valorEmprestimo)
 
-escreva("Digite o número de prestações desejado: ")
+escreva("Digite o nÃºmero de prestaÃ§Ãµes desejado: ")
 leia (numeroPrestacoes)
 
 valorPrestacaoMaximo <- 0.3 rendaMensal
 
 se (valorEmprestimo <= 18 rendaMensal) e (valorEmprestimo / numPrestacoes) <= valorPrestacaoMaximo entao
 
-escreva ("Empréstimo concedido.")
+escreva ("EmprÃ©stimo concedido.")
 
-senão
+senÃ£o
 
-escreva("Empréstimo não concedido.")
+escreva("EmprÃ©stimo nÃ£o concedido.")
 
 fimse
 
