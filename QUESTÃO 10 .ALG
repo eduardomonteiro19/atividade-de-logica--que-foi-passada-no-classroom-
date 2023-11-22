@@ -1,11 +1,11 @@
-Algoritmo "Cálculo de Valor a Pagar por Combustível QUESTÃO 10 "
-// Disciplina   : [Linguagem e Lógica de Programação]
+Algoritmo "CÃ¡lculo de Valor a Pagar por CombustÃ­vel QUESTÃƒO 10 "
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 05/09/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 
 
 litros: real
@@ -15,16 +15,16 @@ precoAlcool:real
 valorPagar:real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
 precoGasolina <- 6.59
 
 precoAlcool <- 3.79
 
-escreva("Digite o número de litros vendidos: ")
+escreva("Digite o nÃºmero de litros vendidos: ")
 leia (litros)
 
-escreva("Digite o tipo de combustível (A - álcool, G - gasolina): ")
+escreva("Digite o tipo de combustÃ­vel (A - Ã¡lcool, G - gasolina): ")
 leia (tipoCombustivel)
 
 se (tipoCombustivel "A") ou (tipo Combustivel = "a") entao
@@ -58,7 +58,7 @@ Fimse
 
 Senao
 
-escreva("Tipo de combustivel inválido.")
+escreva("Tipo de combustivel invÃ¡lido.")
 
 
 Fimse
