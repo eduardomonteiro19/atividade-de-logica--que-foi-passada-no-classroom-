@@ -1,21 +1,21 @@
-Algoritmo "C¡LCULO DE COMPRA DE FRUTAS QUEST√O 4"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "C√ÅLCULO DE COMPRA DE FRUTAS QUEST√ÉO 4"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 05/09/2023
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 
     morangos, macas, totalPagar, valorDesconto, valorMorangos, valorMacas, pesoTotal: real
 
  Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
     escreva("Digite a quantidade (em Kg) de morangos: ")
     leia(morangos)
 
-    escreva("Digite a quantidade (em Kg) de maÁas: ")
+    escreva("Digite a quantidade (em Kg) de ma√ßas: ")
     leia(macas)
 
     valorMorangos <- 0
