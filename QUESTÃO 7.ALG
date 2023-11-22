@@ -1,11 +1,11 @@
-Algoritmo "C¡LCULO DE COMPRA QUEST√O 7"
-// Disciplina   : [Linguagem e LÛgica de ProgramaÁ„o]
+Algoritmo "C√ÅLCULO DE COMPRA QUEST√ÉO 7"
+// Disciplina   : [Linguagem e L√≥gica de Programa√ß√£o]
 // Professor   : Antonio Carlos Nicolodi 
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 05/09/2023
 Var
-// SeÁ„o de DeclaraÁıes das vari·veis 
+// Se√ß√£o de Declara√ß√µes das vari√°veis 
 nome: caractere
 
 quantidade: inteiro
@@ -16,16 +16,16 @@ totalApagar:real
 
 
 Inicio
-// SeÁ„o de Comandos, procedimento, funÁıes, operadores, etc...
+// Se√ß√£o de Comandos, procedimento, fun√ß√µes, operadores, etc...
 
 
-escreva("Digite a descriÁ„o do produto (nome): ")
+escreva("Digite a descri√ß√£o do produto (nome): ")
 leia (nome)
 
 escreva ("Digite a quantidade adquirida: ")
 leia (quantidade)
 
-escreva ("Digite o preÁo unit·rio: ")
+escreva ("Digite o pre√ßo unit√°rio: ")
 leia(precoUnitario)
 
 
@@ -36,13 +36,13 @@ se quantidade <= 5 entao
 
 desconto <- total 0.02
 
-sen„o
+sen√£o
 
 se quantidade < 10 entao
 
 desconto <- total 0.03
 
-sen„o
+sen√£o
 
 desconto <- total 0.05
 
